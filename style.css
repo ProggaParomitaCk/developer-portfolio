@@ -8,10 +8,10 @@ h1 {
 }
 
 .font-clr {
-    color: green;
+    color: deeppink;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -29,6 +29,13 @@ p {
 .bnm {
     color: rgb(8, 8, 13);
     font-size: 20px;
+}
+
+
+.zxc {
+    font-size: 20px;
+    color: deeppink;
+
 }
 
 .new-button {
@@ -50,4 +57,26 @@ p {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position-x: right;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 30px palevioletred;
+    border-left: 7px solid magenta;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#babyWeb {
+    border-left: 7px solid darkorange;
+}
+
+footer p {
+    text-align: center;
 }
